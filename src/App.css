@@ -1,0 +1,108 @@
+*{
+  background-color:#FCEBEA;
+ list-style: none;
+ text-decoration-line:none;
+ 
+}
+a{color: #F1AF79;}
+
+input{
+  border: 1px solid #F1B5B6;
+  margin: 10px;
+}
+textarea{
+  border: 1px solid #F1B5B6;
+  margin: 10px;
+  
+}
+select{
+  border: 1px solid #F1B5B6;
+  margin: 10px;
+ 
+}
+.dicList{
+  border: 1px solid #F1B5B6;
+  margin: 10px;
+}
+
+.App{
+  margin: 0 auto;
+  width: 800px;
+  border: 5px solid #F1B5B6;
+}
+.header_logo>h1{
+  color: #F1AF79;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center; 
+  
+}
+.write>h1{
+  color: #F1AF79;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.header_logo{
+  display: flex;
+    
+}
+
+.header_logoimg{
+  width: 70px;
+  height: 70px;
+  background-image: url(../dic_logo.png);
+  background-size: cover;
+  margin: 30px;
+
+}
+
+.header>nav>ul{
+  display: flex;
+  justify-content: end;
+}
+
+.write_logo{
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+ background-image: url(../writ_icon.png);
+ background-size: cover;
+
+}
+
+.edit_logo{
+  width: 30px;
+  height: 30px;
+ background-image: url(../Edit_icon.png);
+ background-size: cover;
+}
+
+button{
+  width: 100px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #FCEBEA;
+  border: 2px solid #F1B5B6;
+  color:  #F1AF79;
+  font-weight: bold;
+}
+
+.Edit>h1{ color: #F1AF79;
+  font-size: 20px;
+  padding-left: 10px;
+
+}
+.dt_name{
+  display: flex;
+  color: #E1827D;
+}
+.dt_name_1{
+padding-left: 50px;
+color: #E1827D;
+}
+dd{
+  color: #F1AF79;
+  padding-top: 20px;
+
+}
