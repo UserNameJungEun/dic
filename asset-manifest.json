@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/UserNameJungEun/Dictionary/static/css/main.4ba6f5d8.css",
+    "main.js": "/UserNameJungEun/Dictionary/static/js/main.0817933b.js",
+    "static/media/writ_icon.png": "/UserNameJungEun/Dictionary/static/media/writ_icon.38d619007dc270f10f34.png",
+    "index.html": "/UserNameJungEun/Dictionary/index.html",
+    "main.4ba6f5d8.css.map": "/UserNameJungEun/Dictionary/static/css/main.4ba6f5d8.css.map",
+    "main.0817933b.js.map": "/UserNameJungEun/Dictionary/static/js/main.0817933b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba6f5d8.css",
+    "static/js/main.0817933b.js"
+  ]
+}
