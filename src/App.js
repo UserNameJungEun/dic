@@ -127,12 +127,10 @@ const reducer = (state, action) => {
     case "search":
       return {
         ...state,
-        daic: state.dics.filter((item) => {
-          return (
+        dics: state.dics.filter((item) => (
             item.word.toLowerCase().includes(action.text.toLowerCase()) ||
-            item.content.toLowerCase().includes(action.text.ToLowerCase())
-          )
-        })
+            item.content.toLowerCase().includes(action.text.toLowerCase())
+        ))
 
       }
     default:
@@ -179,10 +177,10 @@ function App() {
     })
   }
 
-  const onSearch =(word) =>{
+  const onSearch =(text) =>{
     dispatch({
       type: "search",
-      word
+      text
     })
 
   }

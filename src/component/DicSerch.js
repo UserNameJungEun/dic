@@ -10,10 +10,11 @@ const DicSearch = () => {
         setSearChInput(e.target.value)
     }
     const searchFunc=()=>{
+        console.log(searchInput)
         onSearch(searchInput)
        }
     return (
-        <div className=" dicserch">
+        <div className="dicserch">
             <div>
                 <input type="text" value={searchInput} placeholder="검색어입력" onChange={inputTxt} />
 
